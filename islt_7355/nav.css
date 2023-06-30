@@ -1,6 +1,11 @@
 li {
+    list-style-type: none;
     margin: 20px;
-    padding: 15px;
+    padding: 15px 30px;
     border: 2px solid black;
     display: inline;
+}
+
+div {
+    text-align: center;
 }
