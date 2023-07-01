@@ -1,1 +1,34 @@
-h1 {color: #336666}
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    margin-left: 50px;    
+    color: #073763
+}
+
+h3 {
+    margin-left: 25px;
+    color: #073763
+}
+
+main p#first::first-letter {
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+main p#indent {text-indent: 25px;}
+
+main p {
+    border-style: none;
+    width: 750px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    padding: 3px;
+
+}
+
+footer {
+    margin-left: 25px;
+    font-size: smaller;
+}

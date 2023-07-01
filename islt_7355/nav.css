@@ -1,6 +1,6 @@
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 25px;
     padding: 30px;
     border: 5px solid #f1c232;
     background-color: #f1c232;
@@ -9,9 +9,10 @@ nav ul {
 }
 
 nav ul li {
-    padding: 30px;
+    padding: 15px;
     justify-content: center;
-    display: inline;
+    align-content: center;
+    display: inline-block;
     font-family: Calibri, sans-serif;
 }
 
@@ -20,11 +21,11 @@ nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
-    color: antiquewhite;
+    color: #073763;
 }
 
 nav ul ul li {
-    padding: 30px;
+    padding: 15px;
     justify-content: center;
     font-family: Calibri, sans-serif;
     float: none;
