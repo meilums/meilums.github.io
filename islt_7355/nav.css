@@ -3,13 +3,33 @@ nav ul {
     margin: 0;
     padding: 30px;
     border: 5px solid #f1c232;
+    background-color: #f1c232;
     display: block;
-
+    position: relative;
 }
 
-li {
+nav ul li {
     padding: 30px;
     justify-content: center;
     display: inline;
     font-family: Calibri, sans-serif;
+}
+
+nav ul ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    color: antiquewhite;
+}
+
+nav ul ul li {
+    padding: 30px;
+    justify-content: center;
+    font-family: Calibri, sans-serif;
+    float: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
 }
