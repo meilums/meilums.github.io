@@ -29,13 +29,23 @@ main p#first::first-letter {
 
 main p#indent {text-indent: 25px;}
 
-main {
-    width: 1000px;
-    height: 1000px;
-    justify-content: center;
+#about-me {
+    width: auto;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
 }
 
-main p {
+#about {
+   width: auto;
+    height: auto;
+    float: left;
+    flex-grow: 1.5; 
+}
+
+#about p {
     border-style: none;
     width: auto;
     height: auto;
@@ -43,12 +53,6 @@ main p {
     margin-bottom: 20px;
     padding: 3px;
     font-family: Calibri, sans-serif;
-    float: left;
-}
-
-#about {
-    width: 710px;
-    height: auto;
     float: left;
 }
 
@@ -64,6 +68,7 @@ main p {
     align-items: center;
     float: right;
     padding-top: 15px;
+    flex-grow: 1;
 }
 
 #resume img {
