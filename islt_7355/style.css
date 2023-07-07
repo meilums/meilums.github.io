@@ -1,15 +1,25 @@
 body {
     background-color: #fafafa;
+    width: auto;
+    height: auto;
+}
+
+header {
+    font-family: Calibri, sans-serif;
 }
 
 h1 {
     margin-left: 50px;    
-    color: #073763
+    color: #073763;
 }
 
 h3 {
     margin-left: 25px;
     color: #073763
+}
+
+main h3 {
+    font-family: Calibri, sans-serif;
 }
 
 main p#first::first-letter {
@@ -19,16 +29,67 @@ main p#first::first-letter {
 
 main p#indent {text-indent: 25px;}
 
+main {
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+}
+
 main p {
     border-style: none;
-    width: 750px;
+    width: auto;
+    height: auto;
     margin-left: 50px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     padding: 3px;
+    font-family: Calibri, sans-serif;
+    float: left;
+}
 
+#about {
+    width: 710px;
+    height: auto;
+    float: left;
+}
+
+#about blockquote {
+    position: relative;
+    float: left;
+}
+
+#resume {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+}
+
+#resume img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+#resume span {
+    display: block;
+    margin: 5px;
 }
 
 footer {
-    margin-left: 25px;
+    width: 100%;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer p {
     font-size: smaller;
+    font-family: Calibri, sans-serif;
+    text-align: center;
 }
