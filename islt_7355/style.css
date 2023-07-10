@@ -1,3 +1,4 @@
+/* general styling */
 body {
     background-color: #fafafa;
     width: auto;
@@ -22,12 +23,55 @@ main h3 {
     font-family: Calibri, sans-serif;
 }
 
-main p#first::first-letter {
-    font-weight: bolder;
-    font-size: 150%;
+/* INDEX */
+
+#index {
+    width: auto;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
 }
 
-main p#indent {text-indent: 25px;}
+#welcome {
+    width: auto;
+     height: auto;
+     float: left;
+     flex-grow: 1.5; 
+ }
+
+ #welcome p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+    float: left;
+}
+
+#openbook {
+    /* width: 250px;
+    height: 300px; */
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+#openbook img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+/* ABOUT */
 
 #about-me {
     width: auto;
@@ -39,7 +83,7 @@ main p#indent {text-indent: 25px;}
 }
 
 #about {
-   width: auto;
+    width: auto;
     height: auto;
     float: left;
     flex-grow: 1.5; 
@@ -85,6 +129,284 @@ main p#indent {text-indent: 25px;}
     margin: 5px;
 }
 
+/* PROJECTS */
+
+#projects {
+    width: auto;
+    height: 1500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+/* project one */
+
+#project1 {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#SLO1-about {
+    width: auto;
+    height: auto;
+    float: left;
+    flex-grow: 1.5;
+}
+
+#SLO1-about p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+}
+
+#SLO1-link {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+#SLO1-link img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid #073763
+}
+
+#SLO1 span {
+    display: block;
+    margin: 5px;
+}
+
+/* project two */
+
+#project2 {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#SLO2-about {
+    width: auto;
+    height: auto;
+    float: left;
+    flex-grow: 1.5;
+}
+
+#SLO2-about p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+}
+
+#SLO2-link {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+#SLO2-link img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid #073763
+}
+
+#SLO2 span {
+    display: block;
+    margin: 5px;
+}
+
+/* project three */
+
+#project3 {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#SLO3-about {
+    width: auto;
+    height: auto;
+    float: left;
+    flex-grow: 1.5;
+}
+
+#SLO3-about p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+}
+
+#SLO3-link {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+#SLO3-link img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid #073763
+}
+
+#SLO3 span {
+    display: block;
+    margin: 5px;
+}
+
+/* project four */
+
+#project4 {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#SLO4-about {
+    width: auto;
+    height: auto;
+    float: left;
+    flex-grow: 1.5;
+}
+
+#SLO4-about p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-family: Calibri, sans-serif;
+}
+
+#SLO4-link {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    float: right;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+#SLO4-link img {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border: 2px solid #073763
+}
+
+#SLO4 span {
+    display: block;
+    margin: 5px;
+}
+
+
+/* REFLECTION */
+
+#personal-reflection {
+    width: auto;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#library {
+    width: auto;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+#library img {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 950px;
+    height: 300px;
+    padding: 10px;
+}
+
+#reflection {
+    width: auto;
+     height: auto;
+     float: left;
+     flex-grow: 1.5; 
+ }
+
+ #reflection p {
+    border-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: Calibri, sans-serif;
+    float: left;
+}
+
+#first::first-letter {
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+#indent {text-indent: 25px;}
+
+
+/* general footer styling */
 footer {
     width: 100%;
     position: static;
@@ -97,4 +419,11 @@ footer p {
     font-size: smaller;
     font-family: Calibri, sans-serif;
     text-align: center;
+}
+
+@media (max-width:600px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
 }
