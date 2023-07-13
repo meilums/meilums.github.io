@@ -32,7 +32,7 @@ main h3 {
 
 #index {
     width: auto;
-    height: 500px;
+    height: auto;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -413,18 +413,40 @@ main h3 {
 
 
 /* general footer styling */
-footer {
+#footer {
+    display: flex;
     width: 100%;
+    height: auto;
+    line-height: 25%;
     position: static;
+    bottom: 0;
     align-items: center;
     justify-content: center;
-    
+    margin: 0 auto;
+    flex-direction: column;
+    background-image: url(alexander-grey-eMP4sYPJ9x0-unsplash.jpg);
 }
 
-footer p {
+#footer div {
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+
+#footer img {
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+#footer p {
+    display: inline-block;
     font-size: smaller;
     font-family: Lora, serif;
-    text-align: center;
+    color: #000;
+    align-items: center;
+    justify-content: center;
 }
 
 /* media queries */
@@ -449,7 +471,7 @@ footer p {
     }
     header {
         margin-bottom: 0;
-        border: nome;
+        border: none;
         text-align: center;
         font-family: Lora, serif;   
     }
