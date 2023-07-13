@@ -1,7 +1,7 @@
 /* general styling */
 @font-face {
     font-family: Lora;
-    src: "Lora-VariableFont_wght.ttf"
+    src: url("Lora-VariableFont_wght.ttf")
 }
 
 body {
