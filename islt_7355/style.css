@@ -1,4 +1,9 @@
 /* general styling */
+@font-face {
+    font-family: Lora;
+    src: "Lora-VariableFont_wght.ttf"
+}
+
 body {
     background-color: #fafafa;
     width: auto;
@@ -6,7 +11,7 @@ body {
 }
 
 header {
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 h1 {
@@ -20,7 +25,7 @@ h3 {
 }
 
 main h3 {
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 /* INDEX */
@@ -48,7 +53,8 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
+    /* font-size: 21px; */
     float: left;
 }
 
@@ -96,7 +102,7 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
     float: left;
 }
 
@@ -133,7 +139,7 @@ main h3 {
 
 #projects {
     width: auto;
-    height: 1500px;
+    height: 2000px;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -165,7 +171,7 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 #SLO1-link {
@@ -218,7 +224,7 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 #SLO2-link {
@@ -271,7 +277,7 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 #SLO3-link {
@@ -324,7 +330,7 @@ main h3 {
     margin-left: 50px;
     margin-bottom: 20px;
     padding: 3px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
 }
 
 #SLO4-link {
@@ -394,7 +400,7 @@ main h3 {
     height: auto;
     margin-left: 50px;
     margin-bottom: 20px;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
     float: left;
 }
 
@@ -417,13 +423,41 @@ footer {
 
 footer p {
     font-size: smaller;
-    font-family: Calibri, sans-serif;
+    font-family: Lora, serif;
     text-align: center;
 }
+
+/* media queries */
 
 @media (max-width:600px) {
     p {
         font-size: 1.5rem;
         line-height: 1.5;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        font-family: serif !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    nav {
+        display: none; 
+    }
+    header {
+        margin-bottom: 0;
+        border: nome;
+        text-align: center;
+        font-family: Lora, serif;   
+    }
+    a[href^="http:"]::after {
+        content: " {" attr(href)"}";
+        color: blue; 
+    }
+    @page {
+        margin: 1in;
     }
 }
