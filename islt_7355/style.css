@@ -81,7 +81,7 @@ main h3 {
 
 #about-me {
     width: auto;
-    height: 500px;
+    height: auto;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -106,19 +106,30 @@ main h3 {
     float: left;
 }
 
+iframe {
+    display:inline-block;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    float:none;
+}
+
 #about blockquote {
     position: relative;
     float: left;
 }
 
 #resume {
-    width: 250px;
-    height: 300px;
+   /* width: 250px;
+    height: 300px; */
+    width: auto;
+    height: auto;
     text-align: center;
     align-items: center;
     float: right;
     padding-top: 15px;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 #resume img {
