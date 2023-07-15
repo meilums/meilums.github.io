@@ -433,11 +433,23 @@ main h3 {
     justify-content: center;
 }
 
-#footer img {
+#footer div #contacticon {
     width: 30px;
     height: 30px;
     align-content: center;
     justify-content: center;
+}
+
+#footer div #contacticonbig {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 10;
+}
+
+#footer div #contacticon:hover + #contacticonbig {
+    width: 100px;
 }
 
 #footer p {
