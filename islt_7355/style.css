@@ -20,12 +20,14 @@ h1 {
 }
 
 h3 {
-    margin-left: 25px;
+    margin-left: 0px;
     color: #073763
 }
 
 main h3 {
     font-family: Lora, serif;
+    font-size: larger;
+    text-align: center;
 }
 
 /* INDEX */
@@ -464,7 +466,7 @@ iframe {
 } 
 
 .zoom:hover { 
-    -ms-transform: scale(.5); 
+    -ms-transform: scale(2); 
     /* IE 9 */ -webkit-transform: scale(2); 
     /* Safari 3-8 */ transform: scale(2); 
 } 
