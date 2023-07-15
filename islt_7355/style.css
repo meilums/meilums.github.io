@@ -459,6 +459,16 @@ iframe {
     z-index: 10;
 }
 
+.zoom { 
+    transition: transform .2s; 
+} 
+
+.zoom:hover { 
+    -ms-transform: scale(.5); 
+    /* IE 9 */ -webkit-transform: scale(2); 
+    /* Safari 3-8 */ transform: scale(2); 
+} 
+
 #footer div #contacticon:hover + #contacticonbig {
     width: 100px;
 }
