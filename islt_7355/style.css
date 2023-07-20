@@ -152,7 +152,7 @@ iframe {
 
 #projects {
     width: auto;
-    height: 2000px;
+    height: auto;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -204,7 +204,7 @@ iframe {
     width: 350px;
     height: 250px;
     padding: 10px;
-    border: 2px solid #073763
+    border: 2px solid #073763;
 }
 
 #SLO1 span {
@@ -257,7 +257,7 @@ iframe {
     width: 350px;
     height: 250px;
     padding: 10px;
-    border: 2px solid #073763
+    border: 2px solid #073763;
 }
 
 #SLO2 span {
@@ -310,7 +310,7 @@ iframe {
     width: 350px;
     height: 250px;
     padding: 10px;
-    border: 2px solid #073763
+    border: 2px solid #073763;
 }
 
 #SLO3 span {
@@ -363,13 +363,58 @@ iframe {
     width: 350px;
     height: 250px;
     padding: 10px;
-    border: 2px solid #073763
+    border: 2px solid #073763;
 }
 
 #SLO4 span {
     display: block;
     margin: 5px;
 }
+
+table {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+caption {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+    background-color:slategray;
+}
+
+caption, th, td {
+    font-family: Lora, serif;
+}
+
+tr:nth-child(even) {
+    background-color:silver;
+}
+
+@media only screen and (max-width:950px) {
+    tr {
+        font-size: 16px;
+    }
+    table {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
 
 
 /* REFLECTION */
@@ -486,9 +531,9 @@ iframe {
 
 /* media queries */
 
-@media (max-width:600px) {
+@media (max-width:950px) {
     p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 1.5;
     }
 }
