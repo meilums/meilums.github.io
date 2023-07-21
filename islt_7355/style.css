@@ -375,6 +375,7 @@ table {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    padding:20px;
 }
 
 caption {
@@ -468,6 +469,46 @@ tr:nth-child(even) {
 }
 
 #indent {text-indent: 25px;}
+
+/* CONTACT */
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 3px solid #073763;
+    background-color:#073763;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div {
+    margin: 10px 20px;
+}
+
+label {
+    font-family: Lora, serif;
+    font-weight: bold;
+    color:#fafafa;
+}
+
+@media only screen and (max-width:950px) {
+    tr {
+        font-size: 16px;
+    }
+    table {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
 
 
 /* general footer styling */
